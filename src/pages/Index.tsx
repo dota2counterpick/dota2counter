@@ -1,4 +1,3 @@
-
 import React, { useState, useMemo } from 'react';
 import { HeroGrid } from '../components/HeroGrid';
 import { TeamDisplay } from '../components/TeamDisplay';
