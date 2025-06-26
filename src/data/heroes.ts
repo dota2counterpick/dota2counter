@@ -80,7 +80,7 @@ export const heroesData: Hero[] = [
     name: 'Clockwerk',
     attribute: 'Strength',
     roles: ['Initiator', 'Durable', 'Disabler', 'Nuker'],
-    image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/clockwerk.png',
+    image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/rattletrap.png',
     counters: ['tinker', 'sniper', 'invoker'],
     counteredBy: ['phantom_lancer', 'lifestealer', 'ursa']
   },
