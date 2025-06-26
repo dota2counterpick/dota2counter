@@ -1,4 +1,3 @@
-
 import { Hero } from '../types/hero';
 
 export const heroesData: Hero[] = [
@@ -345,7 +344,7 @@ export const heroesData: Hero[] = [
     roles: ['Carry', 'Escape', 'Nuker'],
     image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/antimage.png',
     counters: ['invoker', 'storm_spirit', 'tinker'],
-    counteredBy: ['axe', 'legion_commander', 'blood_seeker']
+    counteredBy: ['axe', 'legion_commander', 'bloodseeker']
   },
   {
     id: 'arc_warden',
@@ -1068,5 +1067,70 @@ export const heroesData: Hero[] = [
     image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/zuus.png',
     counters: ['huskar', 'phantom_assassin', 'anti_mage'],
     counteredBy: ['storm_spirit', 'queen_of_pain', 'mobile_heroes']
+  },
+
+  // Adding the missing 8 heroes to complete 126 total
+  {
+    id: 'marci',
+    name: 'Marci',
+    attribute: 'Strength',
+    roles: ['Support', 'Disabler', 'Escape', 'Nuker'],
+    image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/marci.png',
+    counters: ['crystal_maiden', 'invoker', 'sniper'],
+    counteredBy: ['lifestealer', 'ursa', 'phantom_lancer']
+  },
+  {
+    id: 'dawnbreaker',
+    name: 'Dawnbreaker',
+    attribute: 'Strength',
+    roles: ['Carry', 'Initiator', 'Durable', 'Nuker'],
+    image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/dawnbreaker.png',
+    counters: ['phantom_assassin', 'anti_mage', 'invoker'],
+    counteredBy: ['lifestealer', 'ursa', 'phantom_lancer']
+  },
+  {
+    id: 'pangolier',
+    name: 'Pangolier',
+    attribute: 'Agility',
+    roles: ['Carry', 'Initiator', 'Disabler', 'Durable', 'Escape'],
+    image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/pangolier.png',
+    counters: ['crystal_maiden', 'invoker', 'tinker'],
+    counteredBy: ['lifestealer', 'ursa', 'phantom_lancer']
+  },
+  {
+    id: 'ringmaster',
+    name: 'Ringmaster',
+    attribute: 'Intelligence',
+    roles: ['Support', 'Disabler', 'Nuker', 'Escape'],
+    image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/ringmaster.png',
+    counters: ['crystal_maiden', 'invoker', 'tinker'],
+    counteredBy: ['storm_spirit', 'queen_of_pain', 'mobile_heroes']
+  },
+  {
+    id: 'kez',
+    name: 'Kez',
+    attribute: 'Agility',
+    roles: ['Carry', 'Escape', 'Disabler'],
+    image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/kez.png',
+    counters: ['crystal_maiden', 'invoker', 'tinker'],
+    counteredBy: ['axe', 'legion_commander', 'blood_seeker']
+  },
+  {
+    id: 'innkeeper',
+    name: 'Innkeeper',
+    attribute: 'Intelligence',
+    roles: ['Support', 'Nuker', 'Disabler'],
+    image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/innkeeper.png',
+    counters: ['crystal_maiden', 'invoker', 'tinker'],
+    counteredBy: ['storm_spirit', 'queen_of_pain', 'mobile_heroes']
+  },
+  {
+    id: 'fymryn',
+    name: 'Fymryn',
+    attribute: 'Agility',
+    roles: ['Carry', 'Escape', 'Nuker'],
+    image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/fymryn.png',
+    counters: ['crystal_maiden', 'invoker', 'tinker'],
+    counteredBy: ['slardar', 'dust_carriers', 'gem_carriers']
   }
 ];
