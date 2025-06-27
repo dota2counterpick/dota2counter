@@ -39,15 +39,6 @@ export const agilityHeroes: Hero[] = [
     counteredBy: ['slardar', 'dust_carriers', 'gem_carriers']
   },
   {
-    id: 'broodmother',
-    name: 'Broodmother',
-    attribute: 'Agility',
-    roles: ['Carry', 'Pusher', 'Escape'],
-    image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/broodmother.png',
-    counters: ['crystal_maiden', 'invoker', 'tinker'],
-    counteredBy: ['earthshaker', 'ember_spirit', 'sven']
-  },
-  {
     id: 'clinkz',
     name: 'Clinkz',
     attribute: 'Agility',
@@ -55,15 +46,6 @@ export const agilityHeroes: Hero[] = [
     image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/clinkz.png',
     counters: ['crystal_maiden', 'invoker', 'tinker'],
     counteredBy: ['slardar', 'dust_carriers', 'gem_carriers']
-  },
-  {
-    id: 'dazzle',
-    name: 'Dazzle',
-    attribute: 'Agility',
-    roles: ['Support', 'Nuker', 'Disabler'],
-    image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/dazzle.png',
-    counters: ['phantom_assassin', 'huskar', 'pudge'],
-    counteredBy: ['ancient_apparition', 'axe', 'culling_blade']
   },
   {
     id: 'drow_ranger',
@@ -102,15 +84,6 @@ export const agilityHeroes: Hero[] = [
     counteredBy: ['clockwerk', 'storm_spirit', 'queen_of_pain']
   },
   {
-    id: 'hoodwink',
-    name: 'Hoodwink',
-    attribute: 'Agility',
-    roles: ['Support', 'Nuker', 'Escape', 'Disabler'],
-    image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/hoodwink.png',
-    counters: ['crystal_maiden', 'invoker', 'tinker'],
-    counteredBy: ['storm_spirit', 'spirit_breaker', 'clockwerk']
-  },
-  {
     id: 'juggernaut',
     name: 'Juggernaut',
     attribute: 'Agility',
@@ -118,15 +91,6 @@ export const agilityHeroes: Hero[] = [
     image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/juggernaut.png',
     counters: ['crystal_maiden', 'invoker', 'tinker'],
     counteredBy: ['axe', 'legion_commander', 'blood_seeker']
-  },
-  {
-    id: 'lone_druid',
-    name: 'Lone Druid',
-    attribute: 'Agility',
-    roles: ['Carry', 'Pusher', 'Durable'],
-    image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/lone_druid.png',
-    counters: ['crystal_maiden', 'invoker', 'tinker'],
-    counteredBy: ['sven', 'ember_spirit', 'earthshaker']
   },
   {
     id: 'luna',
@@ -147,33 +111,6 @@ export const agilityHeroes: Hero[] = [
     counteredBy: ['anti_mage', 'phantom_lancer', 'diffusal_blade_carriers']
   },
   {
-    id: 'meepo',
-    name: 'Meepo',
-    attribute: 'Agility',
-    roles: ['Carry', 'Escape', 'Nuker', 'Disabler', 'Initiator', 'Pusher'],
-    image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/meepo.png',
-    counters: ['crystal_maiden', 'invoker', 'tinker'],
-    counteredBy: ['earthshaker', 'ember_spirit', 'sven']
-  },
-  {
-    id: 'mirana',
-    name: 'Mirana',
-    attribute: 'Agility',
-    roles: ['Carry', 'Support', 'Escape', 'Nuker', 'Disabler'],
-    image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/mirana.png',
-    counters: ['crystal_maiden', 'invoker', 'tinker'],
-    counteredBy: ['slardar', 'dust_carriers', 'gem_carriers']
-  },
-  {
-    id: 'monkey_king',
-    name: 'Monkey King',
-    attribute: 'Agility',
-    roles: ['Carry', 'Escape', 'Disabler', 'Initiator'],
-    image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/monkey_king.png',
-    counters: ['crystal_maiden', 'invoker', 'tinker'],
-    counteredBy: ['timbersaw', 'batrider', 'quelling_blade_carriers']
-  },
-  {
     id: 'morphling',
     name: 'Morphling',
     attribute: 'Agility',
@@ -190,15 +127,6 @@ export const agilityHeroes: Hero[] = [
     image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/naga_siren.png',
     counters: ['crystal_maiden', 'invoker', 'tinker'],
     counteredBy: ['earthshaker', 'ember_spirit', 'sven']
-  },
-  {
-    id: 'nyx_assassin',
-    name: 'Nyx Assassin',
-    attribute: 'Agility',
-    roles: ['Disabler', 'Nuker', 'Initiator', 'Escape'],
-    image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/nyx_assassin.png',
-    counters: ['invoker', 'storm_spirit', 'tinker'],
-    counteredBy: ['slardar', 'dust_carriers', 'gem_carriers']
   },
   {
     id: 'phantom_assassin',
@@ -309,33 +237,6 @@ export const agilityHeroes: Hero[] = [
     counteredBy: ['phantom_lancer', 'anti_mage', 'kiting_heroes']
   },
   {
-    id: 'vengeful_spirit',
-    name: 'Vengeful Spirit',
-    attribute: 'Agility',
-    roles: ['Support', 'Disabler', 'Initiator', 'Escape'],
-    image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/vengefulspirit.png',
-    counters: ['crystal_maiden', 'invoker', 'tinker'],
-    counteredBy: ['lifestealer', 'ursa', 'phantom_lancer']
-  },
-  {
-    id: 'venomancer',
-    name: 'Venomancer',
-    attribute: 'Agility',
-    roles: ['Support', 'Nuker', 'Initiator', 'Pusher', 'Disabler'],
-    image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/venomancer.png',
-    counters: ['templar_assassin', 'huskar', 'phantom_assassin'],
-    counteredBy: ['lifestealer', 'ursa', 'phantom_lancer']
-  },
-  {
-    id: 'viper',
-    name: 'Viper',
-    attribute: 'Agility',
-    roles: ['Carry', 'Durable', 'Initiator', 'Disabler'],
-    image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/viper.png',
-    counters: ['huskar', 'phantom_assassin', 'anti_mage'],
-    counteredBy: ['outworld_destroyer', 'invoker', 'silencer']
-  },
-  {
     id: 'weaver',
     name: 'Weaver',
     attribute: 'Agility',
@@ -343,6 +244,24 @@ export const agilityHeroes: Hero[] = [
     image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/weaver.png',
     counters: ['crystal_maiden', 'invoker', 'tinker'],
     counteredBy: ['slardar', 'dust_carriers', 'gem_carriers']
+  },
+  {
+    id: 'broodmother',
+    name: 'Broodmother',
+    attribute: 'Agility',
+    roles: ['Carry', 'Pusher', 'Escape'],
+    image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/broodmother.png',
+    counters: ['crystal_maiden', 'invoker', 'tinker'],
+    counteredBy: ['earthshaker', 'ember_spirit', 'sven']
+  },
+  {
+    id: 'meepo',
+    name: 'Meepo',
+    attribute: 'Agility',
+    roles: ['Carry', 'Escape', 'Nuker', 'Disabler', 'Initiator', 'Pusher'],
+    image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/meepo.png',
+    counters: ['crystal_maiden', 'invoker', 'tinker'],
+    counteredBy: ['earthshaker', 'ember_spirit', 'sven']
   },
   {
     id: 'pangolier',
@@ -354,21 +273,30 @@ export const agilityHeroes: Hero[] = [
     counteredBy: ['lifestealer', 'ursa', 'phantom_lancer']
   },
   {
-    id: 'kez',
-    name: 'Kez',
+    id: 'hoodwink',
+    name: 'Hoodwink',
     attribute: 'Agility',
-    roles: ['Carry', 'Escape', 'Disabler'],
-    image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/kez.png',
+    roles: ['Support', 'Nuker', 'Escape', 'Disabler'],
+    image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/hoodwink.png',
     counters: ['crystal_maiden', 'invoker', 'tinker'],
-    counteredBy: ['axe', 'legion_commander', 'blood_seeker']
+    counteredBy: ['storm_spirit', 'spirit_breaker', 'clockwerk']
   },
   {
-    id: 'fymryn',
-    name: 'Fymryn',
+    id: 'nyx_assassin',
+    name: 'Nyx Assassin',
     attribute: 'Agility',
-    roles: ['Carry', 'Escape', 'Nuker'],
-    image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/fymryn.png',
-    counters: ['crystal_maiden', 'invoker', 'tinker'],
+    roles: ['Disabler', 'Nuker', 'Initiator', 'Escape'],
+    image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/nyx_assassin.png',
+    counters: ['invoker', 'storm_spirit', 'tinker'],
     counteredBy: ['slardar', 'dust_carriers', 'gem_carriers']
+  },
+  {
+    id: 'lone_druid',
+    name: 'Lone Druid',
+    attribute: 'Agility',
+    roles: ['Carry', 'Pusher', 'Durable'],
+    image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/lone_druid.png',
+    counters: ['crystal_maiden', 'invoker', 'tinker'],
+    counteredBy: ['sven', 'ember_spirit', 'earthshaker']
   }
 ];

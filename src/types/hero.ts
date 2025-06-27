@@ -2,7 +2,7 @@
 export interface Hero {
   id: string;
   name: string;
-  attribute: 'Strength' | 'Agility' | 'Intelligence';
+  attribute: 'Strength' | 'Agility' | 'Intelligence' | 'Universal';
   roles: string[];
   image: string;
   counters: string[]; // Hero IDs that this hero counters

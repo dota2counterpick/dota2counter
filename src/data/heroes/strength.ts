@@ -30,24 +30,6 @@ export const strengthHeroes: Hero[] = [
     counteredBy: ['lifestealer', 'ursa', 'viper']
   },
   {
-    id: 'beastmaster',
-    name: 'Beastmaster',
-    attribute: 'Strength',
-    roles: ['Initiator', 'Durable', 'Disabler', 'Nuker'],
-    image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/beastmaster.png',
-    counters: ['tinker', 'invoker', 'storm_spirit'],
-    counteredBy: ['phantom_lancer', 'anti_mage', 'juggernaut']
-  },
-  {
-    id: 'brewmaster',
-    name: 'Brewmaster',
-    attribute: 'Strength',
-    roles: ['Carry', 'Initiator', 'Durable', 'Disabler', 'Nuker'],
-    image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/brewmaster.png',
-    counters: ['phantom_assassin', 'sniper', 'drow_ranger'],
-    counteredBy: ['outworld_destroyer', 'invoker', 'silencer']
-  },
-  {
     id: 'bristleback',
     name: 'Bristleback',
     attribute: 'Strength',
@@ -75,15 +57,6 @@ export const strengthHeroes: Hero[] = [
     counteredBy: ['sven', 'earthshaker', 'ember_spirit']
   },
   {
-    id: 'clockwerk',
-    name: 'Clockwerk',
-    attribute: 'Strength',
-    roles: ['Initiator', 'Durable', 'Disabler', 'Nuker'],
-    image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/rattletrap.png',
-    counters: ['tinker', 'sniper', 'invoker'],
-    counteredBy: ['phantom_lancer', 'lifestealer', 'ursa']
-  },
-  {
     id: 'doom_bringer',
     name: 'Doom',
     attribute: 'Strength',
@@ -102,15 +75,6 @@ export const strengthHeroes: Hero[] = [
     counteredBy: ['lifestealer', 'ursa', 'viper']
   },
   {
-    id: 'earth_spirit',
-    name: 'Earth Spirit',
-    attribute: 'Strength',
-    roles: ['Nuker', 'Initiator', 'Disabler', 'Escape', 'Durable'],
-    image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/earth_spirit.png',
-    counters: ['crystal_maiden', 'invoker', 'sniper'],
-    counteredBy: ['lifestealer', 'ursa', 'silencer']
-  },
-  {
     id: 'earthshaker',
     name: 'Earthshaker',
     attribute: 'Strength',
@@ -120,15 +84,6 @@ export const strengthHeroes: Hero[] = [
     counteredBy: ['lifestealer', 'anti_mage', 'queen_of_pain']
   },
   {
-    id: 'elder_titan',
-    name: 'Elder Titan',
-    attribute: 'Strength',
-    roles: ['Initiator', 'Durable', 'Disabler', 'Nuker'],
-    image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/elder_titan.png',
-    counters: ['phantom_assassin', 'anti_mage', 'morphling'],
-    counteredBy: ['lifestealer', 'ursa', 'silencer']
-  },
-  {
     id: 'huskar',
     name: 'Huskar',
     attribute: 'Strength',
@@ -136,15 +91,6 @@ export const strengthHeroes: Hero[] = [
     image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/huskar.png',
     counters: ['zeus', 'lina', 'lion'],
     counteredBy: ['ancient_apparition', 'phantom_assassin', 'viper']
-  },
-  {
-    id: 'io',
-    name: 'Io',
-    attribute: 'Strength',
-    roles: ['Support', 'Escape', 'Nuker'],
-    image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/wisp.png',
-    counters: ['crystal_maiden', 'invoker', 'tinker'],
-    counteredBy: ['storm_spirit', 'spirit_breaker', 'clockwerk']
   },
   {
     id: 'kunkka',
@@ -174,15 +120,6 @@ export const strengthHeroes: Hero[] = [
     counteredBy: ['phantom_lancer', 'anti_mage', 'ursa']
   },
   {
-    id: 'lycan',
-    name: 'Lycan',
-    attribute: 'Strength',
-    roles: ['Carry', 'Pusher', 'Jungler', 'Durable', 'Escape'],
-    image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/lycan.png',
-    counters: ['crystal_maiden', 'invoker', 'tinker'],
-    counteredBy: ['earthshaker', 'ember_spirit', 'sven']
-  },
-  {
     id: 'mars',
     name: 'Mars',
     attribute: 'Strength',
@@ -208,33 +145,6 @@ export const strengthHeroes: Hero[] = [
     image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/omniknight.png',
     counters: ['phantom_assassin', 'huskar', 'pudge'],
     counteredBy: ['invoker', 'diffusal_blade_carriers', 'oracle']
-  },
-  {
-    id: 'primal_beast',
-    name: 'Primal Beast',
-    attribute: 'Strength',
-    roles: ['Durable', 'Initiator', 'Disabler', 'Nuker'],
-    image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/primal_beast.png',
-    counters: ['crystal_maiden', 'invoker', 'sniper'],
-    counteredBy: ['lifestealer', 'ursa', 'phantom_lancer']
-  },
-  {
-    id: 'pudge',
-    name: 'Pudge',
-    attribute: 'Strength',
-    roles: ['Durable', 'Disabler', 'Initiator', 'Nuker'],
-    image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/pudge.png',
-    counters: ['crystal_maiden', 'invoker', 'sniper'],
-    counteredBy: ['lifestealer', 'ursa', 'phantom_lancer']
-  },
-  {
-    id: 'sand_king',
-    name: 'Sand King',
-    attribute: 'Strength',
-    roles: ['Initiator', 'Disabler', 'Nuker', 'Support', 'Jungler'],
-    image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/sand_king.png',
-    counters: ['phantom_lancer', 'crystal_maiden', 'invoker'],
-    counteredBy: ['lifestealer', 'anti_mage', 'storm_spirit']
   },
   {
     id: 'slardar',
@@ -291,24 +201,6 @@ export const strengthHeroes: Hero[] = [
     counteredBy: ['lifestealer', 'ursa', 'phantom_assassin']
   },
   {
-    id: 'treant',
-    name: 'Treant Protector',
-    attribute: 'Strength',
-    roles: ['Support', 'Initiator', 'Durable', 'Disabler'],
-    image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/treant.png',
-    counters: ['phantom_assassin', 'riki', 'bounty_hunter'],
-    counteredBy: ['battlEfury_carriers', 'ember_spirit', 'timbersaw']
-  },
-  {
-    id: 'tusk',
-    name: 'Tusk',
-    attribute: 'Strength',
-    roles: ['Initiator', 'Disabler', 'Nuker'],
-    image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/tusk.png',
-    counters: ['crystal_maiden', 'invoker', 'sniper'],
-    counteredBy: ['lifestealer', 'ursa', 'phantom_lancer']
-  },
-  {
     id: 'underlord',
     name: 'Underlord',
     attribute: 'Strength',
@@ -316,15 +208,6 @@ export const strengthHeroes: Hero[] = [
     image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/abyssal_underlord.png',
     counters: ['phantom_lancer', 'meepo', 'chaos_knight'],
     counteredBy: ['lifestealer', 'ursa', 'phantom_assassin']
-  },
-  {
-    id: 'undying',
-    name: 'Undying',
-    attribute: 'Strength',
-    roles: ['Support', 'Durable', 'Disabler', 'Nuker'],
-    image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/undying.png',
-    counters: ['phantom_assassin', 'anti_mage', 'invoker'],
-    counteredBy: ['lifestealer', 'ursa', 'phantom_lancer']
   },
   {
     id: 'wraith_king',
@@ -336,21 +219,30 @@ export const strengthHeroes: Hero[] = [
     counteredBy: ['anti_mage', 'phantom_lancer', 'invoker']
   },
   {
-    id: 'marci',
-    name: 'Marci',
+    id: 'beastmaster',
+    name: 'Beastmaster',
     attribute: 'Strength',
-    roles: ['Support', 'Disabler', 'Escape', 'Nuker'],
-    image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/marci.png',
-    counters: ['crystal_maiden', 'invoker', 'sniper'],
-    counteredBy: ['lifestealer', 'ursa', 'phantom_lancer']
+    roles: ['Initiator', 'Durable', 'Disabler', 'Nuker'],
+    image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/beastmaster.png',
+    counters: ['tinker', 'invoker', 'storm_spirit'],
+    counteredBy: ['phantom_lancer', 'anti_mage', 'juggernaut']
   },
   {
-    id: 'dawnbreaker',
-    name: 'Dawnbreaker',
+    id: 'brewmaster',
+    name: 'Brewmaster',
     attribute: 'Strength',
-    roles: ['Carry', 'Initiator', 'Durable', 'Nuker'],
-    image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/dawnbreaker.png',
-    counters: ['phantom_assassin', 'anti_mage', 'invoker'],
-    counteredBy: ['lifestealer', 'ursa', 'phantom_lancer']
+    roles: ['Carry', 'Initiator', 'Durable', 'Disabler', 'Nuker'],
+    image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/brewmaster.png',
+    counters: ['phantom_assassin', 'sniper', 'drow_ranger'],
+    counteredBy: ['outworld_destroyer', 'invoker', 'silencer']
+  },
+  {
+    id: 'lycan',
+    name: 'Lycan',
+    attribute: 'Strength',
+    roles: ['Carry', 'Pusher', 'Jungler', 'Durable', 'Escape'],
+    image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/lycan.png',
+    counters: ['crystal_maiden', 'invoker', 'tinker'],
+    counteredBy: ['earthshaker', 'ember_spirit', 'sven']
   }
 ];
