@@ -66,31 +66,22 @@ export const universalHeroes: Hero[] = [
     counteredBy: ['ancient_apparition', 'axe', 'culling_blade']
   },
   {
-    id: 'dark_willow',
-    name: 'Dark Willow',
+    id: 'death_prophet',
+    name: 'Death Prophet',
     attribute: 'Universal',
-    roles: ['Support', 'Nuker', 'Disabler', 'Escape'],
-    image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/dark_willow.png',
+    roles: ['Carry', 'Pusher', 'Nuker', 'Disabler'],
+    image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/death_prophet.png',
     counters: ['crystal_maiden', 'invoker', 'tinker'],
-    counteredBy: ['storm_spirit', 'queen_of_pain', 'mobile_heroes']
+    counteredBy: ['anti_mage', 'phantom_lancer', 'diffusal_blade_carriers']
   },
   {
-    id: 'dawnbreaker',
-    name: 'Dawnbreaker',
+    id: 'enigma',
+    name: 'Enigma',
     attribute: 'Universal',
-    roles: ['Carry', 'Initiator', 'Durable', 'Nuker'],
-    image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/dawnbreaker.png',
-    counters: ['phantom_assassin', 'anti_mage', 'invoker'],
-    counteredBy: ['lifestealer', 'ursa', 'phantom_lancer']
-  },
-  {
-    id: 'earth_spirit',
-    name: 'Earth Spirit',
-    attribute: 'Universal',
-    roles: ['Nuker', 'Initiator', 'Disabler', 'Escape', 'Durable'],
-    image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/earth_spirit.png',
-    counters: ['crystal_maiden', 'invoker', 'sniper'],
-    counteredBy: ['lifestealer', 'ursa', 'silencer']
+    roles: ['Initiator', 'Jungler', 'Disabler', 'Pusher'],
+    image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/enigma.png',
+    counters: ['phantom_lancer', 'meepo', 'chaos_knight'],
+    counteredBy: ['silencer', 'doom_bringer', 'disruptors']
   },
   {
     id: 'io',
@@ -100,15 +91,6 @@ export const universalHeroes: Hero[] = [
     image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/wisp.png',
     counters: ['crystal_maiden', 'invoker', 'tinker'],
     counteredBy: ['storm_spirit', 'spirit_breaker', 'clockwerk']
-  },
-  {
-    id: 'lycan',
-    name: 'Lycan',
-    attribute: 'Universal',
-    roles: ['Carry', 'Pusher', 'Jungler', 'Durable', 'Escape'],
-    image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/lycan.png',
-    counters: ['crystal_maiden', 'invoker', 'tinker'],
-    counteredBy: ['earthshaker', 'ember_spirit', 'sven']
   },
   {
     id: 'magnus',
@@ -129,6 +111,15 @@ export const universalHeroes: Hero[] = [
     counteredBy: ['lifestealer', 'ursa', 'phantom_lancer']
   },
   {
+    id: 'nature_prophet',
+    name: 'Nature\'s Prophet',
+    attribute: 'Universal',
+    roles: ['Carry', 'Jungler', 'Pusher', 'Escape'],
+    image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/furion.png',
+    counters: ['crystal_maiden', 'invoker', 'tinker'],
+    counteredBy: ['storm_spirit', 'clockwerk', 'bounty_hunter']
+  },
+  {
     id: 'nyx_assassin',
     name: 'Nyx Assassin',
     attribute: 'Universal',
@@ -147,6 +138,15 @@ export const universalHeroes: Hero[] = [
     counteredBy: ['lifestealer', 'ursa', 'phantom_lancer']
   },
   {
+    id: 'sand_king',
+    name: 'Sand King',
+    attribute: 'Universal',
+    roles: ['Initiator', 'Disabler', 'Nuker', 'Support', 'Jungler'],
+    image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/sand_king.png',
+    counters: ['phantom_lancer', 'crystal_maiden', 'invoker'],
+    counteredBy: ['lifestealer', 'anti_mage', 'storm_spirit']
+  },
+  {
     id: 'snapfire',
     name: 'Snapfire',
     attribute: 'Universal',
@@ -156,6 +156,15 @@ export const universalHeroes: Hero[] = [
     counteredBy: ['storm_spirit', 'queen_of_pain', 'mobile_heroes']
   },
   {
+    id: 'spectre',
+    name: 'Spectre',
+    attribute: 'Universal',
+    roles: ['Carry', 'Durable', 'Escape'],
+    image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/spectre.png',
+    counters: ['crystal_maiden', 'invoker', 'tinker'],
+    counteredBy: ['anti_mage', 'phantom_lancer', 'diffusal_blade_carriers']
+  },
+  {
     id: 'techies',
     name: 'Techies',
     attribute: 'Universal',
@@ -163,6 +172,15 @@ export const universalHeroes: Hero[] = [
     image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/techies.png',
     counters: ['crystal_maiden', 'invoker', 'tinker'],
     counteredBy: ['nature_prophet', 'illusion_heroes', 'gem_carriers']
+  },
+  {
+    id: 'venomancer',
+    name: 'Venomancer',
+    attribute: 'Universal',
+    roles: ['Support', 'Nuker', 'Initiator', 'Pusher', 'Disabler'],
+    image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/venomancer.png',
+    counters: ['templar_assassin', 'huskar', 'phantom_assassin'],
+    counteredBy: ['lifestealer', 'ursa', 'phantom_lancer']
   },
   {
     id: 'visage',
@@ -189,15 +207,6 @@ export const universalHeroes: Hero[] = [
     roles: ['Carry', 'Support', 'Disabler', 'Escape', 'Nuker'],
     image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/windrunner.png',
     counters: ['crystal_maiden', 'invoker', 'tinker'],
-    counteredBy: ['storm_spirit', 'queen_of_pain', 'mobile_heroes']
-  },
-  {
-    id: 'winter_wyvern',
-    name: 'Winter Wyvern',
-    attribute: 'Universal',
-    roles: ['Support', 'Disabler', 'Nuker'],
-    image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/winter_wyvern.png',
-    counters: ['phantom_assassin', 'anti_mage', 'invoker'],
     counteredBy: ['storm_spirit', 'queen_of_pain', 'mobile_heroes']
   }
 ];
