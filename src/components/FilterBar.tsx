@@ -1,3 +1,4 @@
+
 import React from 'react';
 
 interface FilterBarProps {
@@ -32,38 +33,54 @@ export const FilterBar: React.FC<FilterBarProps> = ({
   ];
 
   return (
-    <div className="flex flex-col md:flex-row md:items-center md:space-x-4 space-y-4 md:space-y-0 mb-4">
+    <div className="space-y-4 mb-4">
       <input
         type="text"
         placeholder="Search heroes..."
         value={searchQuery}
         onChange={(e) => onSearchChange(e.target.value)}
-        className="flex-grow px-4 py-2 rounded-lg bg-slate-700 text-white placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-yellow-400"
+        className="w-full px-4 py-2 rounded-lg bg-slate-700 text-white placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-yellow-400"
       />
 
-      <select
-        value={selectedAttribute}
-        onChange={(e) => onAttributeChange(e.target.value)}
-        className="px-4 py-2 rounded-lg bg-slate-700 text-white focus:outline-none focus:ring-2 focus:ring-yellow-400"
-      >
-        {attributes.map((attr) => (
-          <option key={attr} value={attr}>
-            {attr}
-          </option>
-        ))}
-      </select>
+      <div className="space-y-3">
+        <div>
+          <h4 className="text-sm font-medium text-slate-300 mb-2">Attributes</h4>
+          <div className="flex flex-wrap gap-2">
+            {attributes.map((attr) => (
+              <button
+                key={attr}
+                onClick={() => onAttributeChange(attr)}
+                className={`px-3 py-1 rounded-md text-sm font-medium transition-colors ${
+                  selectedAttribute === attr
+                    ? 'bg-yellow-500 text-slate-900'
+                    : 'bg-slate-700 text-slate-300 hover:bg-slate-600'
+                }`}
+              >
+                {attr}
+              </button>
+            ))}
+          </div>
+        </div>
 
-      <select
-        value={selectedRole}
-        onChange={(e) => onRoleChange(e.target.value)}
-        className="px-4 py-2 rounded-lg bg-slate-700 text-white focus:outline-none focus:ring-2 focus:ring-yellow-400"
-      >
-        {roles.map((role) => (
-          <option key={role} value={role}>
-            {role}
-          </option>
-        ))}
-      </select>
+        <div>
+          <h4 className="text-sm font-medium text-slate-300 mb-2">Roles</h4>
+          <div className="flex flex-wrap gap-2">
+            {roles.map((role) => (
+              <button
+                key={role}
+                onClick={() => onRoleChange(role)}
+                className={`px-3 py-1 rounded-md text-sm font-medium transition-colors ${
+                  selectedRole === role
+                    ? 'bg-blue-500 text-white'
+                    : 'bg-slate-700 text-slate-300 hover:bg-slate-600'
+                }`}
+              >
+                {role}
+              </button>
+            ))}
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
