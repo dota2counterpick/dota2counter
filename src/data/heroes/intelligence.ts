@@ -8,17 +8,17 @@ export const intelligenceHeroes: Hero[] = [
     attribute: 'Intelligence',
     roles: ['Support', 'Disabler', 'Nuker'],
     image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/ancient_apparition.png',
-    counters: ['huskar', 'alchemist', 'morphling'],
-    counteredBy: ['storm_spirit', 'queen_of_pain', 'mobile_heroes']
+    counters: ['alchemist', 'huskar', 'morphling', 'terrorblade', 'abaddon'],
+    counteredBy: ['storm_spirit', 'queen_of_pain', 'puck', 'anti_mage', 'clockwerk']
   },
   {
     id: 'chen',
     name: 'Chen',
     attribute: 'Intelligence',
-    roles: ['Support', 'Jungler', 'Pusher'],
+    roles: ['Support', 'Pusher', 'Jungler'],
     image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/chen.png',
-    counters: ['phantom_assassin', 'anti_mage', 'invoker'],
-    counteredBy: ['earthshaker', 'ember_spirit', 'sven']
+    counters: ['phantom_assassin', 'huskar', 'pudge', 'axe', 'legion_commander'],
+    counteredBy: ['anti_mage', 'phantom_lancer', 'storm_spirit', 'invoker', 'tinker']
   },
   {
     id: 'crystal_maiden',
@@ -26,17 +26,17 @@ export const intelligenceHeroes: Hero[] = [
     attribute: 'Intelligence',
     roles: ['Support', 'Nuker', 'Disabler'],
     image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/crystal_maiden.png',
-    counters: ['phantom_lancer', 'meepo', 'chaos_knight'],
-    counteredBy: ['storm_spirit', 'queen_of_pain', 'clockwerk']
+    counters: ['phantom_lancer', 'meepo', 'broodmother', 'chaos_knight', 'naga_siren'],
+    counteredBy: ['storm_spirit', 'queen_of_pain', 'clockwerk', 'spirit_breaker', 'pudge']
   },
   {
     id: 'dark_seer',
     name: 'Dark Seer',
     attribute: 'Intelligence',
-    roles: ['Initiator', 'Escape', 'Disabler', 'Jungler'],
+    roles: ['Initiator', 'Jungler', 'Escape', 'Disabler'],
     image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/dark_seer.png',
-    counters: ['phantom_lancer', 'meepo', 'chaos_knight'],
-    counteredBy: ['lifestealer', 'ursa', 'phantom_lancer']
+    counters: ['phantom_lancer', 'meepo', 'chaos_knight', 'naga_siren', 'broodmother'],
+    counteredBy: ['anti_mage', 'lifestealer', 'doom', 'silencer', 'outworld_destroyer']
   },
   {
     id: 'dark_willow',
@@ -44,8 +44,8 @@ export const intelligenceHeroes: Hero[] = [
     attribute: 'Intelligence',
     roles: ['Support', 'Nuker', 'Disabler', 'Escape'],
     image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/dark_willow.png',
-    counters: ['crystal_maiden', 'invoker', 'tinker'],
-    counteredBy: ['storm_spirit', 'queen_of_pain', 'mobile_heroes']
+    counters: ['phantom_assassin', 'sniper', 'drow_ranger', 'shadow_fiend', 'invoker'],
+    counteredBy: ['storm_spirit', 'anti_mage', 'queen_of_pain', 'lifestealer', 'clockwerk']
   },
   {
     id: 'disruptor',
@@ -53,17 +53,17 @@ export const intelligenceHeroes: Hero[] = [
     attribute: 'Intelligence',
     roles: ['Support', 'Disabler', 'Nuker', 'Initiator'],
     image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/disruptor.png',
-    counters: ['storm_spirit', 'anti_mage', 'queen_of_pain'],
-    counteredBy: ['lifestealer', 'ursa', 'phantom_lancer']
+    counters: ['storm_spirit', 'queen_of_pain', 'anti_mage', 'phantom_lancer', 'enigma'],
+    counteredBy: ['lifestealer', 'pudge', 'clockwerk', 'spirit_breaker', 'doom']
   },
   {
     id: 'enchantress',
     name: 'Enchantress',
     attribute: 'Intelligence',
-    roles: ['Support', 'Jungler', 'Pusher', 'Durable'],
+    roles: ['Support', 'Jungler', 'Durable', 'Pusher'],
     image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/enchantress.png',
-    counters: ['phantom_assassin', 'anti_mage', 'invoker'],
-    counteredBy: ['magic_damage_dealers', 'burst_heroes', 'nukers']
+    counters: ['phantom_assassin', 'troll_warlord', 'huskar', 'ursa', 'sven'],
+    counteredBy: ['invoker', 'tinker', 'storm_spirit', 'queen_of_pain', 'clockwerk']
   },
   {
     id: 'grimstroke',
@@ -71,8 +71,8 @@ export const intelligenceHeroes: Hero[] = [
     attribute: 'Intelligence',
     roles: ['Support', 'Nuker', 'Disabler', 'Escape'],
     image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/grimstroke.png',
-    counters: ['crystal_maiden', 'invoker', 'tinker'],
-    counteredBy: ['storm_spirit', 'queen_of_pain', 'mobile_heroes']
+    counters: ['phantom_lancer', 'meepo', 'chaos_knight', 'phantom_assassin', 'invoker'],
+    counteredBy: ['storm_spirit', 'anti_mage', 'queen_of_pain', 'lifestealer', 'clockwerk']
   },
   {
     id: 'invoker',
@@ -80,8 +80,8 @@ export const intelligenceHeroes: Hero[] = [
     attribute: 'Intelligence',
     roles: ['Carry', 'Nuker', 'Disabler', 'Escape', 'Pusher'],
     image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/invoker.png',
-    counters: ['crystal_maiden', 'phantom_lancer', 'meepo'],
-    counteredBy: ['anti_mage', 'storm_spirit', 'queen_of_pain']
+    counters: ['crystal_maiden', 'tinker', 'zeus', 'lina', 'lion'],
+    counteredBy: ['storm_spirit', 'anti_mage', 'queen_of_pain', 'nyx_assassin', 'clockwerk']
   },
   {
     id: 'jakiro',
@@ -89,8 +89,8 @@ export const intelligenceHeroes: Hero[] = [
     attribute: 'Intelligence',
     roles: ['Support', 'Nuker', 'Pusher', 'Disabler'],
     image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/jakiro.png',
-    counters: ['templar_assassin', 'phantom_assassin', 'huskar'],
-    counteredBy: ['storm_spirit', 'queen_of_pain', 'mobile_heroes']
+    counters: ['templar_assassin', 'huskar', 'phantom_assassin', 'broodmother', 'meepo'],
+    counteredBy: ['anti_mage', 'storm_spirit', 'queen_of_pain', 'clockwerk', 'pudge']
   },
   {
     id: 'keeper_of_the_light',
@@ -98,8 +98,8 @@ export const intelligenceHeroes: Hero[] = [
     attribute: 'Intelligence',
     roles: ['Support', 'Nuker', 'Disabler', 'Jungler'],
     image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/keeper_of_the_light.png',
-    counters: ['phantom_lancer', 'meepo', 'chaos_knight'],
-    counteredBy: ['storm_spirit', 'queen_of_pain', 'mobile_heroes']
+    counters: ['phantom_lancer', 'meepo', 'broodmother', 'chaos_knight', 'naga_siren'],
+    counteredBy: ['storm_spirit', 'anti_mage', 'queen_of_pain', 'clockwerk', 'nyx_assassin']
   },
   {
     id: 'leshrac',
@@ -107,8 +107,8 @@ export const intelligenceHeroes: Hero[] = [
     attribute: 'Intelligence',
     roles: ['Carry', 'Support', 'Nuker', 'Pusher', 'Disabler'],
     image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/leshrac.png',
-    counters: ['phantom_lancer', 'meepo', 'chaos_knight'],
-    counteredBy: ['anti_mage', 'storm_spirit', 'queen_of_pain']
+    counters: ['phantom_lancer', 'meepo', 'broodmother', 'templar_assassin', 'huskar'],
+    counteredBy: ['storm_spirit', 'anti_mage', 'queen_of_pain', 'nyx_assassin', 'clockwerk']
   },
   {
     id: 'lich',
@@ -116,8 +116,8 @@ export const intelligenceHeroes: Hero[] = [
     attribute: 'Intelligence',
     roles: ['Support', 'Nuker'],
     image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/lich.png',
-    counters: ['phantom_lancer', 'meepo', 'chaos_knight'],
-    counteredBy: ['storm_spirit', 'queen_of_pain', 'mobile_heroes']
+    counters: ['phantom_lancer', 'meepo', 'broodmother', 'chaos_knight', 'naga_siren'],
+    counteredBy: ['storm_spirit', 'anti_mage', 'queen_of_pain', 'clockwerk', 'pudge']
   },
   {
     id: 'lina',
@@ -125,26 +125,26 @@ export const intelligenceHeroes: Hero[] = [
     attribute: 'Intelligence',
     roles: ['Support', 'Carry', 'Nuker', 'Disabler'],
     image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/lina.png',
-    counters: ['huskar', 'phantom_assassin', 'anti_mage'],
-    counteredBy: ['storm_spirit', 'queen_of_pain', 'mobile_heroes']
+    counters: ['crystal_maiden', 'invoker', 'tinker', 'zeus', 'lion'],
+    counteredBy: ['storm_spirit', 'anti_mage', 'queen_of_pain', 'clockwerk', 'pudge']
   },
   {
     id: 'lion',
     name: 'Lion',
     attribute: 'Intelligence',
-    roles: ['Support', 'Disabler', 'Nuker'],
+    roles: ['Support', 'Disabler', 'Nuker', 'Initiator'],
     image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/lion.png',
-    counters: ['morphling', 'anti_mage', 'storm_spirit'],
-    counteredBy: ['lifestealer', 'ursa', 'phantom_lancer']
+    counters: ['crystal_maiden', 'invoker', 'tinker', 'morphling', 'terrorblade'],
+    counteredBy: ['storm_spirit', 'anti_mage', 'queen_of_pain', 'lifestealer', 'clockwerk']
   },
   {
     id: 'muerta',
     name: 'Muerta',
     attribute: 'Intelligence',
-    roles: ['Carry', 'Nuker'],
+    roles: ['Carry', 'Nuker', 'Disabler'],
     image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/muerta.png',
-    counters: ['crystal_maiden', 'invoker', 'tinker'],
-    counteredBy: ['storm_spirit', 'queen_of_pain', 'mobile_heroes']
+    counters: ['phantom_assassin', 'sniper', 'drow_ranger', 'shadow_fiend', 'invoker'],
+    counteredBy: ['storm_spirit', 'anti_mage', 'queen_of_pain', 'clockwerk', 'spirit_breaker']
   },
   {
     id: 'necrophos',
@@ -152,8 +152,8 @@ export const intelligenceHeroes: Hero[] = [
     attribute: 'Intelligence',
     roles: ['Carry', 'Nuker', 'Durable', 'Disabler'],
     image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/necrolyte.png',
-    counters: ['phantom_assassin', 'anti_mage', 'invoker'],
-    counteredBy: ['ancient_apparition', 'pugna', 'outworld_destroyer']
+    counters: ['huskar', 'phantom_assassin', 'pudge', 'axe', 'abaddon'],
+    counteredBy: ['anti_mage', 'storm_spirit', 'queen_of_pain', 'silencer', 'outworld_destroyer']
   },
   {
     id: 'oracle',
@@ -161,17 +161,17 @@ export const intelligenceHeroes: Hero[] = [
     attribute: 'Intelligence',
     roles: ['Support', 'Nuker', 'Disabler', 'Escape'],
     image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/oracle.png',
-    counters: ['omniknight', 'abaddon', 'dazzle'],
-    counteredBy: ['storm_spirit', 'queen_of_pain', 'mobile_heroes']
+    counters: ['phantom_assassin', 'huskar', 'pudge', 'batrider', 'doom'],
+    counteredBy: ['storm_spirit', 'anti_mage', 'queen_of_pain', 'clockwerk', 'silencer']
   },
   {
     id: 'outworld_destroyer',
     name: 'Outworld Destroyer',
     attribute: 'Intelligence',
-    roles: ['Carry', 'Nuker', 'Disabler'],
+    roles: ['Carry', 'Nuker'],
     image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/obsidian_destroyer.png',
-    counters: ['abaddon', 'brewmaster', 'necrophos'],
-    counteredBy: ['anti_mage', 'storm_spirit', 'queen_of_pain']
+    counters: ['invoker', 'storm_spirit', 'tinker', 'zeus', 'necrophos'],
+    counteredBy: ['anti_mage', 'phantom_lancer', 'lifestealer', 'clockwerk', 'nyx_assassin']
   },
   {
     id: 'puck',
@@ -179,17 +179,17 @@ export const intelligenceHeroes: Hero[] = [
     attribute: 'Intelligence',
     roles: ['Initiator', 'Disabler', 'Escape', 'Nuker'],
     image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/puck.png',
-    counters: ['crystal_maiden', 'invoker', 'tinker'],
-    counteredBy: ['storm_spirit', 'queen_of_pain', 'mobile_heroes']
+    counters: ['crystal_maiden', 'invoker', 'tinker', 'shadow_fiend', 'sniper'],
+    counteredBy: ['storm_spirit', 'anti_mage', 'queen_of_pain', 'clockwerk', 'silencer']
   },
   {
     id: 'pugna',
     name: 'Pugna',
     attribute: 'Intelligence',
-    roles: ['Nuker', 'Pusher'],
+    roles: ['Nuker', 'Pusher', 'Support'],
     image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/pugna.png',
-    counters: ['necrophos', 'death_prophet', 'invoker'],
-    counteredBy: ['storm_spirit', 'queen_of_pain', 'mobile_heroes']
+    counters: ['invoker', 'storm_spirit', 'tinker', 'zeus', 'lina'],
+    counteredBy: ['anti_mage', 'phantom_lancer', 'clockwerk', 'nyx_assassin', 'pudge']
   },
   {
     id: 'queen_of_pain',
@@ -197,17 +197,17 @@ export const intelligenceHeroes: Hero[] = [
     attribute: 'Intelligence',
     roles: ['Carry', 'Nuker', 'Escape'],
     image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/queenofpain.png',
-    counters: ['crystal_maiden', 'invoker', 'tinker'],
-    counteredBy: ['storm_spirit', 'anti_mage', 'pugna']
+    counters: ['crystal_maiden', 'invoker', 'tinker', 'zeus', 'shadow_fiend'],
+    counteredBy: ['storm_spirit', 'anti_mage', 'clockwerk', 'pudge', 'doom']
   },
   {
     id: 'ringmaster',
     name: 'Ringmaster',
     attribute: 'Intelligence',
-    roles: ['Support', 'Disabler', 'Nuker', 'Escape'],
+    roles: ['Support', 'Disabler', 'Nuker'],
     image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/ringmaster.png',
-    counters: ['crystal_maiden', 'invoker', 'tinker'],
-    counteredBy: ['storm_spirit', 'queen_of_pain', 'mobile_heroes']
+    counters: ['phantom_assassin', 'sniper', 'drow_ranger', 'shadow_fiend', 'invoker'],
+    counteredBy: ['storm_spirit', 'anti_mage', 'queen_of_pain', 'clockwerk', 'lifestealer']
   },
   {
     id: 'rubick',
@@ -215,8 +215,8 @@ export const intelligenceHeroes: Hero[] = [
     attribute: 'Intelligence',
     roles: ['Support', 'Disabler', 'Nuker'],
     image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/rubick.png',
-    counters: ['invoker', 'enigma', 'tidehunter'],
-    counteredBy: ['storm_spirit', 'queen_of_pain', 'mobile_heroes']
+    counters: ['invoker', 'enigma', 'magnus', 'tidehunter', 'earthshaker'],
+    counteredBy: ['storm_spirit', 'anti_mage', 'queen_of_pain', 'clockwerk', 'pudge']
   },
   {
     id: 'shadow_demon',
@@ -224,8 +224,8 @@ export const intelligenceHeroes: Hero[] = [
     attribute: 'Intelligence',
     roles: ['Support', 'Disabler', 'Initiator', 'Nuker'],
     image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/shadow_demon.png',
-    counters: ['crystal_maiden', 'invoker', 'tinker'],
-    counteredBy: ['storm_spirit', 'queen_of_pain', 'mobile_heroes']
+    counters: ['phantom_assassin', 'troll_warlord', 'huskar', 'ursa', 'sven'],
+    counteredBy: ['storm_spirit', 'anti_mage', 'queen_of_pain', 'lifestealer', 'clockwerk']
   },
   {
     id: 'shadow_shaman',
@@ -233,8 +233,8 @@ export const intelligenceHeroes: Hero[] = [
     attribute: 'Intelligence',
     roles: ['Support', 'Pusher', 'Disabler', 'Nuker'],
     image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/shadow_shaman.png',
-    counters: ['crystal_maiden', 'invoker', 'tinker'],
-    counteredBy: ['storm_spirit', 'queen_of_pain', 'mobile_heroes']
+    counters: ['phantom_assassin', 'sniper', 'drow_ranger', 'invoker', 'tinker'],
+    counteredBy: ['storm_spirit', 'anti_mage', 'queen_of_pain', 'lifestealer', 'clockwerk']
   },
   {
     id: 'silencer',
@@ -242,8 +242,8 @@ export const intelligenceHeroes: Hero[] = [
     attribute: 'Intelligence',
     roles: ['Carry', 'Support', 'Disabler', 'Initiator', 'Nuker'],
     image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/silencer.png',
-    counters: ['invoker', 'storm_spirit', 'enigma'],
-    counteredBy: ['anti_mage', 'storm_spirit', 'queen_of_pain']
+    counters: ['invoker', 'storm_spirit', 'enigma', 'tidehunter', 'magnus'],
+    counteredBy: ['anti_mage', 'phantom_lancer', 'clockwerk', 'pudge', 'doom']
   },
   {
     id: 'skywrath_mage',
@@ -251,17 +251,17 @@ export const intelligenceHeroes: Hero[] = [
     attribute: 'Intelligence',
     roles: ['Support', 'Nuker', 'Disabler'],
     image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/skywrath_mage.png',
-    counters: ['crystal_maiden', 'invoker', 'tinker'],
-    counteredBy: ['storm_spirit', 'queen_of_pain', 'mobile_heroes']
+    counters: ['crystal_maiden', 'invoker', 'tinker', 'zeus', 'lina'],
+    counteredBy: ['storm_spirit', 'anti_mage', 'queen_of_pain', 'clockwerk', 'pudge']
   },
   {
     id: 'storm_spirit',
     name: 'Storm Spirit',
     attribute: 'Intelligence',
-    roles: ['Carry', 'Escape', 'Nuker', 'Initiator', 'Disabler'],
+    roles: ['Carry', 'Escape', 'Nuker', 'Initiator'],
     image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/storm_spirit.png',
-    counters: ['crystal_maiden', 'invoker', 'tinker'],
-    counteredBy: ['anti_mage', 'bloodseeker', 'orchid_carriers']
+    counters: ['crystal_maiden', 'invoker', 'tinker', 'zeus', 'shadow_fiend'],
+    counteredBy: ['anti_mage', 'doom', 'silencer', 'bloodseeker', 'outworld_destroyer']
   },
   {
     id: 'tinker',
@@ -269,8 +269,8 @@ export const intelligenceHeroes: Hero[] = [
     attribute: 'Intelligence',
     roles: ['Carry', 'Nuker', 'Pusher'],
     image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/tinker.png',
-    counters: ['crystal_maiden', 'phantom_lancer', 'meepo'],
-    counteredBy: ['storm_spirit', 'clockwerk', 'nyx_assassin']
+    counters: ['crystal_maiden', 'invoker', 'zeus', 'lina', 'lion'],
+    counteredBy: ['storm_spirit', 'anti_mage', 'queen_of_pain', 'clockwerk', 'nyx_assassin']
   },
   {
     id: 'warlock',
@@ -278,8 +278,8 @@ export const intelligenceHeroes: Hero[] = [
     attribute: 'Intelligence',
     roles: ['Support', 'Initiator', 'Disabler'],
     image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/warlock.png',
-    counters: ['phantom_lancer', 'meepo', 'chaos_knight'],
-    counteredBy: ['storm_spirit', 'queen_of_pain', 'mobile_heroes']
+    counters: ['phantom_lancer', 'meepo', 'broodmother', 'chaos_knight', 'naga_siren'],
+    counteredBy: ['storm_spirit', 'anti_mage', 'queen_of_pain', 'clockwerk', 'doom']
   },
   {
     id: 'winter_wyvern',
@@ -287,8 +287,8 @@ export const intelligenceHeroes: Hero[] = [
     attribute: 'Intelligence',
     roles: ['Support', 'Disabler', 'Nuker'],
     image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/winter_wyvern.png',
-    counters: ['phantom_assassin', 'anti_mage', 'invoker'],
-    counteredBy: ['storm_spirit', 'queen_of_pain', 'mobile_heroes']
+    counters: ['phantom_assassin', 'troll_warlord', 'huskar', 'ursa', 'sven'],
+    counteredBy: ['storm_spirit', 'anti_mage', 'queen_of_pain', 'clockwerk', 'lifestealer']
   },
   {
     id: 'witch_doctor',
@@ -296,16 +296,16 @@ export const intelligenceHeroes: Hero[] = [
     attribute: 'Intelligence',
     roles: ['Support', 'Nuker'],
     image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/witch_doctor.png',
-    counters: ['phantom_lancer', 'meepo', 'chaos_knight'],
-    counteredBy: ['storm_spirit', 'queen_of_pain', 'mobile_heroes']
+    counters: ['phantom_lancer', 'meepo', 'broodmother', 'chaos_knight', 'naga_siren'],
+    counteredBy: ['storm_spirit', 'anti_mage', 'queen_of_pain', 'clockwerk', 'pudge']
   },
   {
     id: 'zeus',
     name: 'Zeus',
     attribute: 'Intelligence',
-    roles: ['Nuker', 'Disabler'],
+    roles: ['Nuker', 'Support'],
     image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/zuus.png',
-    counters: ['crystal_maiden', 'invoker', 'tinker'],
-    counteredBy: ['storm_spirit', 'queen_of_pain', 'mobile_heroes']
+    counters: ['crystal_maiden', 'invoker', 'tinker', 'nature_prophet', 'spectre'],
+    counteredBy: ['storm_spirit', 'anti_mage', 'queen_of_pain', 'clockwerk', 'pudge']
   }
 ];
